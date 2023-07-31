@@ -154,6 +154,7 @@ main {
 }
 
 h1 {
+	color: #0a0a0a;
 	font-size: 2rem;
 	text-align: center;
 	margin-bottom: 1rem;
@@ -192,7 +193,7 @@ h2 {
 
 	width: 200px;
 	height: 200px;
-	
+	color: #0a0a0a;
 	text-align: center;
 	background-color: white;
 	border-radius: 999px;
@@ -236,6 +237,7 @@ form:hover {
 }
 
 form input[type="number"] {
+	color: #0a0a0a;
 	appearance: none;
 	outline: none;
 	border: none;
@@ -270,6 +272,7 @@ form input[type="submit"]:hover {
 }
 
 .canvas-box {
+	color: #0a0a0a;
 	width: 100%;
 	max-width: 20rem;
 	background-color: azure;
@@ -291,6 +294,7 @@ form input[type="submit"]:hover {
 }
 
 .weight-history ul li {
+	color: #0a0a0a;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -321,6 +325,9 @@ form input[type="submit"]:hover {
 .weight-history ul li small {
 	color: #888;
 	font-style: italic;
+}
+input{
+	max-width: 7rem;
 }
 
 
